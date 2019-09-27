@@ -9,6 +9,9 @@
   <body>
     <div id="root">
       <p>Je parle la langue {{ langue }}</p>
+      <p>Je m'appelle {{ user }}</p>
+      <p>et j'habite à {{ city }}</p>
+      <button v-on:click="changeLanguage">Change Language</button>
     </div>
     <script src="https://unpkg.com/vue"></script>
     <script src="./index.js"></script>
